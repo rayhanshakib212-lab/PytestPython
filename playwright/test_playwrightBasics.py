@@ -50,11 +50,13 @@ def test_newloginpagepractice(playwright: Playwright):
     browser = playwright.chromium.launch(headless=False)
     context = browser.new_context()
     page = context.new_page()
-    page.goto("https://rahulshettyacademy.com/client/#/auth/login")
+    page.goto("https://rahulshettyacademy.com/client/")
     page.locator("#userEmail").fill("smarthq@gmail.com")
     page.locator("#userPassword").fill("Imhere123!")
     page.locator("#login").click()
-    assert "Automation" == page.locator("h3")
+
+    pageTitle = page.locator("#h3").get_text()
+    assert "Automation" == pageTitle
 
    # page.get_by_role("button", name="login").click() h3
     time.sleep(5)

@@ -21,3 +21,12 @@ def test_UIChecks(page:Page):
     pageFrame = page.frame_locator("#courses-iframe")
     pageFrame.get_by_role("link", name="All Access plan").click()
     expect(pageFrame.locator("body")).to_contain_text("Happy Subscibers") # website has a bug on the spelling
+
+
+    #check prices =37, id price col, id
+
+
+
+    #MouseHover
+    page.locator("#mousehover").hover()
+    page.get_by_role("link",name="Top").click()
