@@ -4,12 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="aa1b838c-40c9-497b-aed1-225596034e86" name="Changes" comment="Added added api">
-      <change afterPath="$PROJECT_DIR$/playwright/test_Network1.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/playwright/test_Network2.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/playwright/test_web_api.py" beforeDir="false" afterPath="$PROJECT_DIR$/playwright/test_web_api.py" afterDir="false" />
-    </list>
+    <list default="true" id="aa1b838c-40c9-497b-aed1-225596034e86" name="Changes" comment="Added api interception" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -200,7 +195,7 @@
       <workItem from="1792113794109" duration="6902000" />
       <workItem from="1792197507669" duration="2874000" />
       <workItem from="1792206135187" duration="2813000" />
-      <workItem from="1792241971319" duration="27300000" />
+      <workItem from="1792241971319" duration="27628000" />
     </task>
     <task id="LOCAL-00001" summary="Added Validations">
       <option name="closed" value="true" />
@@ -226,7 +221,15 @@
       <option name="project" value="LOCAL" />
       <updated>1792270476374</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Added api interception">
+      <option name="closed" value="true" />
+      <created>1792282143124</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1792282143124</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -246,7 +249,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Added Validations" />
     <MESSAGE value="Added added api" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added added api" />
+    <MESSAGE value="Added api interception" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added api interception" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
