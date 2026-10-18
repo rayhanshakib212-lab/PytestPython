@@ -4,7 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="aa1b838c-40c9-497b-aed1-225596034e86" name="Changes" comment="Added api interception" />
+    <list default="true" id="aa1b838c-40c9-497b-aed1-225596034e86" name="Changes" comment="Added api interception">
+      <change afterPath="$PROJECT_DIR$/playwright/libraryAPItesting.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/PytestPython.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/PytestPython.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/playwright/test_Network2.py" beforeDir="false" afterPath="$PROJECT_DIR$/playwright/test_Network2.py" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -20,18 +25,18 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
-  "lastFilter": {
-    "state": "OPEN",
-    "assignee": "rayhanshakib212-lab"
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;rayhanshakib212-lab&quot;
   }
-}]]></component>
-  <component name="GithubPullRequestsUISettings"><![CDATA[{
-  "selectedUrlAndAccountId": {
-    "url": "https://github.com/rayhanshakib212-lab/PytestPython.git",
-    "accountId": "b3b3acf6-1a39-469a-8eb4-ea220b8bca06"
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/rayhanshakib212-lab/PytestPython.git&quot;,
+    &quot;accountId&quot;: &quot;b3b3acf6-1a39-469a-8eb4-ea220b8bca06&quot;
   }
-}]]></component>
+}</component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 5,
   &quot;fromUser&quot;: false
@@ -47,6 +52,8 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "ModuleVcsDetector.initialDetectionPerformed": "true",
+    "Python tests.Python tests for libraryAPItesting.test_add_a_book.executor": "Run",
+    "Python tests.Python tests for libraryAPItesting.test_delete_a_book.executor": "Run",
     "Python tests.Python tests for playwright.playwrightBasics.test_coreLocators.executor": "Run",
     "Python tests.Python tests for playwright.playwrightBasics.test_playwrightBasic.executor": "Run",
     "Python tests.Python tests for playwright.playwrightBasics.test_playwrightShortCut.executor": "Run",
@@ -59,9 +66,11 @@
     "Python tests.Python tests for playwright.test_playwrightBasics.test_newloginpage_practice.executor": "Run",
     "Python tests.Python tests for playwright.test_playwrightBasics.test_newloginpagepractice.executor": "Run",
     "Python tests.Python tests for playwright.test_web_api.test_e2e_web_api.executor": "Run",
+    "Python tests.Python tests for test_Network2.test_session_storage.executor": "Run",
     "Python tests.Python tests for test_PyTestValidation.test_initialise2.executor": "Run",
     "Python tests.Python tests in TestPyTestValidation.py.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
     "RunOnceActivity.typescript.service.memoryLimit.init": "true",
     "codeWithMe.voiceChat.enabledByDefault": "false",
     "git-widget-placeholder": "master",
@@ -77,8 +86,8 @@
       <recent name="C:\Users\daydr\PycharmProjects\PythonProject1\pytestDir" />
     </key>
   </component>
-  <component name="RunManager" selected="Python tests.Python tests for playwright.test_Network2.test_Network_2">
-    <configuration name="Python tests for playwright.test_MoreUIValidation.test_UIChecks" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Python tests.Python tests for libraryAPItesting.test_delete_a_book">
+    <configuration name="Python tests for libraryAPItesting.test_add_a_book" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
       <module name="PytestPython" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -91,8 +100,26 @@
       <option name="DEBUG_JUST_MY_CODE" value="false" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="RUN_TOOL" value="" />
-      <option name="_new_additionalArguments" value="&quot;--headed&quot;" />
-      <option name="_new_target" value="&quot;playwright.test_MoreUIValidation.test_UIChecks&quot;" />
+      <option name="_new_additionalArguments" value="&quot;-s&quot;" />
+      <option name="_new_target" value="&quot;libraryAPItesting.test_add_a_book&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Python tests for libraryAPItesting.test_delete_a_book" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+      <module name="PytestPython" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="DEBUG_JUST_MY_CODE" value="false" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="RUN_TOOL" value="" />
+      <option name="_new_additionalArguments" value="&quot;-s&quot;" />
+      <option name="_new_target" value="&quot;libraryAPItesting.test_delete_a_book&quot;" />
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
@@ -132,24 +159,6 @@
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
-    <configuration name="Python tests for playwright.test_playwrightBasics.test_newloginpagepractice" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
-      <module name="PytestPython" />
-      <option name="ENV_FILES" value="" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="DEBUG_JUST_MY_CODE" value="false" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="RUN_TOOL" value="" />
-      <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;playwright.test_playwrightBasics.test_newloginpagepractice&quot;" />
-      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
-      <method v="2" />
-    </configuration>
     <configuration name="Python tests for playwright.test_web_api.test_e2e_web_api" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
       <module name="PytestPython" />
       <option name="ENV_FILES" value="" />
@@ -168,13 +177,31 @@
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
+    <configuration name="Python tests for test_Network2.test_session_storage" type="tests" factoryName="Autodetect" nameIsGenerated="true">
+      <module name="PytestPython" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="DEBUG_JUST_MY_CODE" value="false" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="RUN_TOOL" value="" />
+      <option name="_new_additionalArguments" value="&quot;--headed -s&quot;" />
+      <option name="_new_target" value="&quot;test_Network2.test_session_storage&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python tests.Python tests for libraryAPItesting.test_delete_a_book" />
+        <item itemvalue="Python tests.Python tests for libraryAPItesting.test_add_a_book" />
         <item itemvalue="Python tests.Python tests for playwright.test_Network2.test_Network_2" />
         <item itemvalue="Python tests.Python tests for playwright.test_Network1.test_Network_1" />
         <item itemvalue="Python tests.Python tests for playwright.test_web_api.test_e2e_web_api" />
-        <item itemvalue="Python tests.Python tests for playwright.test_playwrightBasics.test_newloginpagepractice" />
-        <item itemvalue="Python tests.Python tests for playwright.test_MoreUIValidation.test_UIChecks" />
       </list>
     </recent_temporary>
   </component>
@@ -195,7 +222,8 @@
       <workItem from="1792113794109" duration="6902000" />
       <workItem from="1792197507669" duration="2874000" />
       <workItem from="1792206135187" duration="2813000" />
-      <workItem from="1792241971319" duration="27628000" />
+      <workItem from="1792241971319" duration="29225000" />
+      <workItem from="1792358877372" duration="4736000" />
     </task>
     <task id="LOCAL-00001" summary="Added Validations">
       <option name="closed" value="true" />
@@ -229,7 +257,15 @@
       <option name="project" value="LOCAL" />
       <updated>1792282143124</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Added api interception">
+      <option name="closed" value="true" />
+      <created>1792282412569</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1792282412569</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -275,10 +311,20 @@
           <line>15</line>
           <option name="timeStamp" value="5" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/playwright/libraryAPItesting.py</url>
+          <line>16</line>
+          <option name="timeStamp" value="7" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/playwright/libraryAPItesting.py</url>
+          <line>31</line>
+          <option name="timeStamp" value="8" />
+        </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/PytestPython$.coverage" NAME=" Coverage Results" MODIFIED="1792281272640" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/PytestPython$.coverage" NAME=" Coverage Results" MODIFIED="1792363471947" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
 </project>
