@@ -15,3 +15,15 @@ def test_get_token(playwright:Playwright):
     assert response.ok
     response_body = response.json()
     print(response_body)
+    access_token = response_body["access_token"]
+    print(access_token)
+
+    course_response = api_context.get(
+        "/oauthapi/getCourseDetails",
+        params={
+            "access_token": access_token
+        }
+    )
+    course_response_body = course_response.json()
+    print(course_response_body)
+    assert course_response_body["instructor"] == "RahulShetty"

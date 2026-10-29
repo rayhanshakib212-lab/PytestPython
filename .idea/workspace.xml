@@ -4,18 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="aa1b838c-40c9-497b-aed1-225596034e86" name="Changes" comment="added library api testing with get">
-      <change afterPath="$PROJECT_DIR$/playwright/0authapi.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/playwright/data/credentials.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/playwright/page_Objects/DashboardPage.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/playwright/page_Objects/apiBaseforTest_framework.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/playwright/page_Objects/conftest.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/playwright/page_Objects/loginPage.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/playwright/page_Objects/test_framework_web_api.py" afterDir="false" />
+    <list default="true" id="aa1b838c-40c9-497b-aed1-225596034e86" name="Changes" comment="added 0auth api testing">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/playwright/libraryAPItesting.py" beforeDir="false" afterPath="$PROJECT_DIR$/playwright/libraryAPItesting.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/playwright/test_MoreUIValidation.py" beforeDir="false" afterPath="$PROJECT_DIR$/playwright/test_MoreUIValidation.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pytestDir/conftest.py" beforeDir="false" afterPath="$PROJECT_DIR$/pytestDir/conftest.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/playwright/authapi.py" beforeDir="false" afterPath="$PROJECT_DIR$/playwright/authapi.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -59,6 +50,7 @@
   <component name="PropertiesComponent">{
   &quot;keyToString&quot;: {
     &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
+    &quot;Python tests.Python tests for authapi.test_get_token.executor&quot;: &quot;Run&quot;,
     &quot;Python tests.Python tests for libraryAPItesting.test_add_a_book.executor&quot;: &quot;Run&quot;,
     &quot;Python tests.Python tests for libraryAPItesting.test_delete_a_book.executor&quot;: &quot;Run&quot;,
     &quot;Python tests.Python tests for libraryAPItesting.test_get_book_id.executor&quot;: &quot;Run&quot;,
@@ -133,7 +125,7 @@
       <option name="DEBUG_JUST_MY_CODE" value="false" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="RUN_TOOL" value="" />
-      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_additionalArguments" value="&quot;-s&quot;" />
       <option name="_new_target" value="&quot;authapi.test_get_token&quot;" />
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
@@ -281,7 +273,8 @@
       <workItem from="1792687205826" duration="9283000" />
       <workItem from="1792795501441" duration="971000" />
       <workItem from="1793221019846" duration="715000" />
-      <workItem from="1793293106424" duration="2908000" />
+      <workItem from="1793293106424" duration="4014000" />
+      <workItem from="1793300619326" duration="7983000" />
     </task>
     <task id="LOCAL-00001" summary="Added Validations">
       <option name="closed" value="true" />
@@ -339,7 +332,15 @@
       <option name="project" value="LOCAL" />
       <updated>1792367187864</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="added 0auth api testing">
+      <option name="closed" value="true" />
+      <created>1793296188465</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1793296188465</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -362,7 +363,8 @@
     <MESSAGE value="Added api interception" />
     <MESSAGE value="added library api testing" />
     <MESSAGE value="added library api testing with get" />
-    <option name="LAST_COMMIT_MESSAGE" value="added library api testing with get" />
+    <MESSAGE value="added 0auth api testing" />
+    <option name="LAST_COMMIT_MESSAGE" value="added 0auth api testing" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -397,10 +399,15 @@
           <line>33</line>
           <option name="timeStamp" value="8" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/playwright/authapi.py</url>
+          <line>2</line>
+          <option name="timeStamp" value="10" />
+        </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/PytestPython$.coverage" NAME=" Coverage Results" MODIFIED="1793293994242" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/PytestPython$.coverage" NAME=" Coverage Results" MODIFIED="1793317176603" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
 </project>
