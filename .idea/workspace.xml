@@ -4,9 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="aa1b838c-40c9-497b-aed1-225596034e86" name="Changes" comment="added 0auth api testing">
+    <list default="true" id="aa1b838c-40c9-497b-aed1-225596034e86" name="Changes" comment="added 0auth api testing, added getCourseDetails">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/playwright/authapi.py" beforeDir="false" afterPath="$PROJECT_DIR$/playwright/authapi.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -274,7 +273,7 @@
       <workItem from="1792795501441" duration="971000" />
       <workItem from="1793221019846" duration="715000" />
       <workItem from="1793293106424" duration="4014000" />
-      <workItem from="1793300619326" duration="7983000" />
+      <workItem from="1793300619326" duration="10117000" />
     </task>
     <task id="LOCAL-00001" summary="Added Validations">
       <option name="closed" value="true" />
@@ -340,7 +339,15 @@
       <option name="project" value="LOCAL" />
       <updated>1793296188465</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="added 0auth api testing, added getCourseDetails">
+      <option name="closed" value="true" />
+      <created>1793317406347</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1793317406363</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -364,7 +371,8 @@
     <MESSAGE value="added library api testing" />
     <MESSAGE value="added library api testing with get" />
     <MESSAGE value="added 0auth api testing" />
-    <option name="LAST_COMMIT_MESSAGE" value="added 0auth api testing" />
+    <MESSAGE value="added 0auth api testing, added getCourseDetails" />
+    <option name="LAST_COMMIT_MESSAGE" value="added 0auth api testing, added getCourseDetails" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
